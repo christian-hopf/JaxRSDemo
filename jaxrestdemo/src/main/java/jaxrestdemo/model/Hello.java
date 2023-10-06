@@ -1,5 +1,8 @@
 package jaxrestdemo.model;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Hello {
 	private String message;
 	
