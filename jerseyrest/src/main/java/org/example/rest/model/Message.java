@@ -7,6 +7,11 @@ public class Message {
     public Message() {
     }
 
+    public Message(int id){
+        super();
+        this.id = id;
+    }
+
     public Message(int id, String text) {
         super();
         this.id = id;
