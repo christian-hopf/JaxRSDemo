@@ -1,12 +1,12 @@
-package org.example.rest.service;
+package org.example.service;
 
-import org.example.rest.model.Message;
-import org.example.rest.dao.MessageDAO;
-import org.example.rest.model.MessagePostRequest;
+import org.example.dao.MessageDAO;
+import org.example.model.Message;
+import org.example.model.MessagePostRequest;
 import org.jvnet.hk2.annotations.Service;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class MessageServiceImplementation implements MessageService {
@@ -29,7 +29,7 @@ public class MessageServiceImplementation implements MessageService {
     }
 
     @Override
-    public boolean updateMessageById(int id, MessagePostRequest request){
+    public boolean updateMessageById(int id, MessagePostRequest request) {
         return dao.update(id, request.getText());
     }
 

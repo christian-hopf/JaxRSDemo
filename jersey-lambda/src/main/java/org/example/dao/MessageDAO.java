@@ -1,7 +1,6 @@
-package org.example.rest.dao;
+package org.example.dao;
 
-import org.example.rest.model.Message;
-import org.example.rest.model.MessagePostRequest;
+import org.example.model.Message;
 
 import java.util.*;
 

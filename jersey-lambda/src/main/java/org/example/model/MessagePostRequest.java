@@ -1,4 +1,4 @@
-package org.example.rest.model;
+package org.example.model;
 
 import org.glassfish.jersey.server.JSONP;
 

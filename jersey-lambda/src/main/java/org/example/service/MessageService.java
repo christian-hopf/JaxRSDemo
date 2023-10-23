@@ -1,7 +1,7 @@
-package org.example.rest.service;
+package org.example.service;
 
-import org.example.rest.model.Message;
-import org.example.rest.model.MessagePostRequest;
+import org.example.model.Message;
+import org.example.model.MessagePostRequest;
 import org.jvnet.hk2.annotations.Contract;
 
 import java.util.List;
