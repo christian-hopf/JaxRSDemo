@@ -1,0 +1,30 @@
+{
+  "id" : "4363e099-053b-4ca5-815c-b7b1e8b9b317",
+  "name" : "messages_1",
+  "request" : {
+    "url" : "/messages/1",
+    "method" : "PUT",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"text\": \"Update from postman\"}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 307,
+    "body" : "<html>\r\n<head><title>307 Temporary Redirect</title></head>\r\n<body>\r\n<center><h1>307 Temporary Redirect</h1></center>\r\n<hr><center>CloudFront</center>\r\n</body>\r\n</html>\r\n",
+    "headers" : {
+      "Server" : "CloudFront",
+      "Date" : "Wed, 01 Nov 2023 19:56:55 GMT",
+      "Content-Type" : "text/html",
+      "Location" : "https://3vzzotx9hf.execute-api.us-east-1.amazonaws.com/Prod/messages/1",
+      "X-Cache" : "Redirect from cloudfront",
+      "Via" : "1.1 8896a4c97fc4c63841b1b6728ce4cb78.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop" : "DFW57-P3",
+      "X-Amz-Cf-Id" : "vnEi41qBeqZJkkKcyz017bGiYv7wZ7Dd6C5pwBHMlVPs-8E3eVPJ_A=="
+    }
+  },
+  "uuid" : "4363e099-053b-4ca5-815c-b7b1e8b9b317",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

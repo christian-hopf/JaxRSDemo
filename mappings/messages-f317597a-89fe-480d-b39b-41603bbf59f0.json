@@ -1,0 +1,31 @@
+{
+  "id" : "f317597a-89fe-480d-b39b-41603bbf59f0",
+  "name" : "messages",
+  "request" : {
+    "url" : "/messages/",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"text\": \"Post from postman\"}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Message created with id: 5",
+    "headers" : {
+      "Content-Type" : "text/plain",
+      "Date" : "Wed, 01 Nov 2023 20:05:46 GMT",
+      "x-amzn-RequestId" : "17b9ca41-fb65-4f60-a091-517372ef7d52",
+      "x-amz-apigw-id" : "NvBgKED7oAMEAqQ=",
+      "X-Amzn-Trace-Id" : "Root=1-6542af9a-683ddbfe72f546931f4838c5;Sampled=0;lineage=0930fa98:0",
+      "X-Cache" : "Miss from cloudfront",
+      "Via" : "1.1 8b9bbdbcf2d58ec23ae4c09deed986a0.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop" : "DFW57-P3",
+      "X-Amz-Cf-Id" : "TjJM5bJ59kV6BbeuwQ7OjhkUIuiysjTL5iDpzuYpWKsI5IE88n1Gqg=="
+    }
+  },
+  "uuid" : "f317597a-89fe-480d-b39b-41603bbf59f0",
+  "persistent" : true,
+  "insertionIndex" : 3
+}

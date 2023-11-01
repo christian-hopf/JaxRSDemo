@@ -1,0 +1,31 @@
+{
+  "id" : "a8eba07f-8bbb-47ae-b328-41a91437d755",
+  "name" : "messages_4",
+  "request" : {
+    "url" : "/messages/4",
+    "method" : "PUT",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"text\": \"Update from postman\"}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Message with id 4 successfully updated.",
+    "headers" : {
+      "Content-Type" : "text/plain",
+      "Date" : "Wed, 01 Nov 2023 20:06:02 GMT",
+      "x-amzn-RequestId" : "687c55ef-9a43-4610-b71d-ce6a7ce05729",
+      "x-amz-apigw-id" : "NvBitHszoAMEHrg=",
+      "X-Amzn-Trace-Id" : "Root=1-6542afaa-16b22632622407e047c3267c;Sampled=0;lineage=0930fa98:0",
+      "X-Cache" : "Miss from cloudfront",
+      "Via" : "1.1 3d2313f745328d14382b38933365a878.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop" : "DFW57-P3",
+      "X-Amz-Cf-Id" : "SbocA-8I9f9FpA0VB-R3j2rAZ5XN5izW2vRPbjKX2fxd90kfVbTcKw=="
+    }
+  },
+  "uuid" : "a8eba07f-8bbb-47ae-b328-41a91437d755",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

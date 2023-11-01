@@ -3,6 +3,7 @@ package org.example;
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
+import com.github.tomakehurst.wiremock.stubbing.StubMapping;
 import org.junit.Test;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -14,6 +15,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.List;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
 import static org.junit.Assert.*;
@@ -36,10 +38,13 @@ public class MessagesTest {
 
     @Test
     public void testWireMock() {
-        wireMockServer.start();
-        System.out.println(wireMockServer.isRunning());
-        System.out.println(wireMockServer.baseUrl());
-        assertTrue(wireMockServer.isRunning());
+//        wireMockServer.start();
+//        System.out.println(wireMockServer.isRunning());
+//        System.out.println(wireMockServer.baseUrl());
+//        assertTrue(wireMockServer.isRunning());
+        WireMock.startRecording("https://3vzzotx9hf.execute-api.us-east-1.amazonaws.com/Prod/messages");
+        List<StubMapping> recordedMappings = (List<StubMapping>) WireMock.stopRecording();
+        System.out.println(recordedMappings);
     }
 
     @Test

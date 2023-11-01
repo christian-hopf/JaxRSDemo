@@ -1,0 +1,26 @@
+{
+  "id" : "041ad3b7-6c1e-4aca-a7b0-0bda59cf6d99",
+  "name" : "messages_2",
+  "request" : {
+    "url" : "/messages/2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"id\":2,\"text\":\"Good afternoon\"}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Wed, 01 Nov 2023 20:05:35 GMT",
+      "x-amzn-RequestId" : "4c16bd7b-c789-42b3-96e1-d9b177302311",
+      "x-amz-apigw-id" : "NvBeeGEXIAMEbAA=",
+      "X-Amzn-Trace-Id" : "Root=1-6542af8f-43f827cf0824db0f02b36263;Sampled=0;lineage=0930fa98:0",
+      "X-Cache" : "Miss from cloudfront",
+      "Via" : "1.1 ef8ea7364948ac69a48f36f8026b9a44.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop" : "DFW57-P3",
+      "X-Amz-Cf-Id" : "_gaVIahdTPr8r7bTC_NyWYxVRn8j_hBCUZOYzuvHiIVFBfAEST3hCg=="
+    }
+  },
+  "uuid" : "041ad3b7-6c1e-4aca-a7b0-0bda59cf6d99",
+  "persistent" : true,
+  "insertionIndex" : 4
+}

@@ -1,0 +1,26 @@
+{
+  "id" : "e35f2898-cfb4-44da-8197-baa42d42b707",
+  "name" : "messages",
+  "request" : {
+    "url" : "/messages",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"1\":\"Mapping edit\",\"2\":\"Good afternoon\",\"3\":\"Good evening\",\"4\":\"Good night\"}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Wed, 01 Nov 2023 20:05:25 GMT",
+      "x-amzn-RequestId" : "e31bd4c8-507e-45aa-930e-c40bd6933940",
+      "x-amz-apigw-id" : "NvBc2HOxIAMEiZA=",
+      "X-Amzn-Trace-Id" : "Root=1-6542af85-180c4d69295bcbda0a248a62;Sampled=0;lineage=0930fa98:0",
+      "X-Cache" : "Miss from cloudfront",
+      "Via" : "1.1 449fa83ca78700ed550cb365c6afa476.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop" : "DFW57-P3",
+      "X-Amz-Cf-Id" : "efZzqwvoe6Q76PtLQpqoRmXtwUUGPmGjahpWM7Np5EcFuj_r5qjxyg=="
+    }
+  },
+  "uuid" : "e35f2898-cfb4-44da-8197-baa42d42b707",
+  "persistent" : true,
+  "insertionIndex" : 5
+}

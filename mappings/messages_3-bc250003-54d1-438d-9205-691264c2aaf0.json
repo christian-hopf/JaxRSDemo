@@ -1,0 +1,26 @@
+{
+  "id" : "bc250003-54d1-438d-9205-691264c2aaf0",
+  "name" : "messages_3",
+  "request" : {
+    "url" : "/messages/3",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Message with id 3 successfully deleted.",
+    "headers" : {
+      "Content-Type" : "text/plain",
+      "Date" : "Wed, 01 Nov 2023 20:06:13 GMT",
+      "x-amzn-RequestId" : "724efacd-7b03-4fd0-9408-82965b63c6ec",
+      "x-amz-apigw-id" : "NvBkbFwcoAMEa9Q=",
+      "X-Amzn-Trace-Id" : "Root=1-6542afb5-56558afa06146ca45d7c17e7;Sampled=0;lineage=0930fa98:0",
+      "X-Cache" : "Miss from cloudfront",
+      "Via" : "1.1 8c2dc914428d194718c8f636a78a5f74.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop" : "DFW57-P3",
+      "X-Amz-Cf-Id" : "eQnl8xIqX5Ppvimff0Njn1YmgDwnLtoJyge1THz6WPqKfmkRVUBTug=="
+    }
+  },
+  "uuid" : "bc250003-54d1-438d-9205-691264c2aaf0",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
