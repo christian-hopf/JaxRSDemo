@@ -27,7 +27,7 @@ public class MessageDAO {
     }
 
     public List<Message> listAll() {
-        return new ArrayList<Message>(messages.values());
+        return new ArrayList<>(messages.values());
     }
 
     public int add(String text) {
