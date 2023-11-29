@@ -1,7 +1,17 @@
 package org.example.model;
 
+import jakarta.validation.constraints.PositiveOrZero;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Message {
+    @NotNull
+    @PositiveOrZero
     private int id;
+
+    @NotNull
+    @Size(min = 1, max = 64, message = "Message can be a maximum of 64 characters")
     private String text;
 
     public Message() {
