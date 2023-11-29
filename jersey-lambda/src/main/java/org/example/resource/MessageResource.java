@@ -29,8 +29,7 @@ public class MessageResource {
 
     private MessageListDAO dao = MessageListDAO.getInstance();
 
-//    ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
-//    Validator validator = factory.getValidator();
+//    private final Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
 
 //    @GET
 //    @Produces(MediaType.APPLICATION_JSON)
@@ -82,7 +81,7 @@ public class MessageResource {
     @PUT
     @Path("/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response updateMessage(@NotNull @PathParam("id") int id, MessageListUpdateRequest request) {
+    public Response updateMessage(@PathParam("id") int id, MessageListUpdateRequest request) {
         boolean updated = dao.update(id, request);
 //        boolean updated = messageService.updateMessageById(id, request);
         if (updated) {
@@ -94,7 +93,7 @@ public class MessageResource {
     //
     @DELETE
     @Path("/{id}")
-    public Response deleteMessageListById(@NotNull @PathParam("id") int id) {
+    public Response deleteMessageListById(@PathParam("id") int id) {
         boolean deleted = dao.deleteMessageListById(id);
 //        boolean deleted = messageService.deleteMessageById(id);
         if (deleted) {

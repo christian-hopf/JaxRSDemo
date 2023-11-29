@@ -6,8 +6,8 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: org.example.StreamLambdaHandler::handleRequest
-      Runtime: java8
-      CodeUri: s3://my-jersey-lambda-bucket/c27b373a02d2e7fcb2ffa677b216a0e5
+      Runtime: java11
+      CodeUri: s3://my-jersey-lambda-bucket/01234685035f70bf07a695ca1578138b
       MemorySize: 512
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 15

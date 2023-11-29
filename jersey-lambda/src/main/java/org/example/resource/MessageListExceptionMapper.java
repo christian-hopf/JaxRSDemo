@@ -1,11 +1,13 @@
-package org.example;
+package org.example.resource;
 
 import javax.validation.ConstraintViolationException;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.ExceptionMapper;
+import jakarta.ws.rs.ext.Provider;
 
 import javax.validation.ConstraintViolation;
 
+@Provider
 public class MessageListExceptionMapper implements ExceptionMapper<ConstraintViolationException> {
 
     @Override
