@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: org.example.StreamLambdaHandler::handleRequest
       Runtime: java11
-      CodeUri: s3://my-jersey-lambda-bucket/e6fc53f2c06a8d3fb774958f9867618e
+      CodeUri: s3://my-jersey-lambda-bucket/eef37e6899bd2fee3d4de44299e3ee00
       MemorySize: 512
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 15
